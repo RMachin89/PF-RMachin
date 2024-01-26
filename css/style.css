@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav {
+    background-color: cornflowerblue;
+    font-family: "Pacifico";
+    font-weight: 400;
+    padding: 1px;
+    position: sticky;
+    font-size:large;
+    padding: auto;
+}
+nav li {
+    display: flex;
+    justify-content: baseline;
+}
+a {
+    text-decoration: none;
+    color: wheat;
+}
