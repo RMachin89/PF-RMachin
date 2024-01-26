@@ -20,15 +20,27 @@
 </head>
 
 <body>
-  <header class="container-fluid">
-    <nav class="row">
-      <ul class="col-sm-12 col-md-10 col-lg-8 col-xl-6 col-xxl-5 d-flex justify-content-evenly">
-        <li><a href="index.html"><img src="img/logo/logo.png" alt=""></a></li>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="pages/contacto.html">Suscribase</a></li>
-        <li><a href="pages/cursos.html">Cursos</a></li>
-        <li><a href="pages/productos.html">Delicias</a></li>
-        <li><a href="pages/quienessomos.html">Conócenos</a></li>
+  <header>
+    <nav class="container-fluid">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"><img src="../img/logo/logo.png" alt=""></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/quienessomos.html">Conócenos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/productos.html">Delicias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/cursos.html">Cursos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/contacto.html">Suscribte</a>
+        </li>
       </ul>
     </nav>
   </header>
@@ -36,16 +48,48 @@
   <main>
       <section class="container-fluid">
         <div class="row">
-          <div class="carousel">
-
+          <div class="col-12">
+            <div class="card">
+              <img src="img/macarrons.jpg" class="card-img" alt="macarrons">
+              <div class="card-img-overlay">
+                <h1 class="card-title">Amaphini</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut necessitatibus quam quis quibusdam ex, pariatur modi minus culpa eaque! Debitis dolorem deleniti ex delectus inventore blanditiis repellat eius saepe. Eaque.</p>
+                <p><em>Hecho con amor</em></p>
+              </div>
+            </div>
           </div>
 
         </div>
       </section>
   </main>
 
-  <section>
-
+  <section class="container-fluid">
+    <div class="row">
+      <h2>Nuestros cursos</h2>
+      <div class="col-6">
+          <div class="card">
+            <img src="img/cake.jpg" class="card-img-top" alt="cookies">
+            <div class="card-body">
+              <h5><a href="/pages/cursos.html">Como en casa</a></h5>
+              <p></p>
+            </div>  
+          </div>
+      </div>     
+      
+      <div class="col-6">
+          <div class="card">
+            <img src="img/chocake.jpg" class="card-img-top" alt="brownie">
+            <div class="card-body">
+            <h5"><a href="/pages/cursos.html">Brownies y cakes</a></h5>
+            <p>La especialidad.</p>
+            </div>
+          </div>
+      </div>
+    </div>  
+      
+      
+    </div>
   </section>
 
   <footer>

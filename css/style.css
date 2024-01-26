@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
 }
-
+a {
+    text-decoration: none;
+    color: wheat;
+}
 h1 {
-    font-family: "Preahvihear", sans-serif;
+    font-family: "Pacifico";
     font-weight: 400;
     font-style: normal;
+    font-size: 50px;
 }
 nav {
     background-color: cornflowerblue;
@@ -19,9 +23,24 @@ nav {
 }
 nav li {
     display: flex;
-    justify-content: baseline;
+    align-items: center;
 }
-a {
+nav li img {
+    width: auto;
+    height: 50px;
+}
+.nav-link {
     text-decoration: none;
     color: wheat;
+}
+.card {
+    width: 100%;
+    max-width: fit-content;
+}
+.card-body {
+    background-color: cornflowerblue;
+    color: wheat;
+}
+.card-title {
+    color: #f4c2c2;
 }
