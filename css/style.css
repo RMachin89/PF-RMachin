@@ -2,15 +2,17 @@
     margin: 0;
     padding: 0;
 }
+
 a {
     text-decoration: none;
-    color: wheat;
+    color: #f4c2c2;
 }
 h1 {
     font-family: "Pacifico";
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
+    text-align: center;
 }
 nav {
     background-color: cornflowerblue;
@@ -29,18 +31,27 @@ nav li img {
     width: auto;
     height: 50px;
 }
+.btn {
+    background-color: cornflowerblue;
+    box-shadow: #f4c2c2;
+    color: wheat;
+    font-weight: 600;
+}
 .nav-link {
     text-decoration: none;
     color: wheat;
 }
 .card {
     width: 100%;
-    max-width: fit-content;
+    border: none;
+    margin: 20px 0 40px 0px;
+
 }
 .card-body {
     background-color: cornflowerblue;
     color: wheat;
 }
 .card-title {
-    color: #f4c2c2;
+    color:#f4c2c2;
+    text-align: start;
 }
