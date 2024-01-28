@@ -1,0 +1,14 @@
+.card {
+    width: 100%;
+    border: none;
+    margin: 20px 0 40px 0px;
+
+}
+.card-body {
+    background-color: $fondo-primario;
+    color: $color-fuente;
+}
+.card-title {
+    color:#f4c2c2;
+    text-align: start;
+}

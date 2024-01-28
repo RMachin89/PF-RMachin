@@ -1,0 +1,17 @@
+
+nav {
+    background-color: $fondo-primario;
+    font-family: "Pacifico";
+    font-weight: 400;
+    padding: 1px;
+    position: sticky;
+    font-size:large;
+    li {
+        display: flex;
+        align-items: center;
+        .nav-link {
+            text-decoration: none;
+            color: $color-fuente;
+    }
+}
+}
