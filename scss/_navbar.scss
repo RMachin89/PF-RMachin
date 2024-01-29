@@ -4,11 +4,10 @@ nav {
     font-family: "Pacifico";
     font-weight: 400;
     padding: 1px;
-    position: fixed;
     font-size:large;
     li {
         display: flex;
-        justify-content: center;
+        align-items: center;
         .nav-link {
             text-decoration: none;
             color: $color-fuente;

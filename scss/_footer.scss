@@ -1,6 +1,7 @@
-div {
-    padding: 200px;
+footer {
     display: flex;
-    justify-content: space-evenly;
-    
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: $fondo-primario;
+    color: $color-fuente;
 }
