@@ -1,7 +1,8 @@
 footer {
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
     background-color: $fondo-primario;
     color: $color-fuente;
 }

@@ -66,8 +66,9 @@ div button {
 
 footer {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
   background-color: rgb(100, 149, 237);
   color: rgb(245, 222, 179);
 }
