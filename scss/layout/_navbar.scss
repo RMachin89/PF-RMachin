@@ -1,6 +1,6 @@
 
 nav {
-    background-color: $fondo-primario;
+    background-color: map-get($colores, fondo-primario);
     font-family: "Pacifico";
     font-weight: 400;
     padding: 1px;
@@ -10,7 +10,7 @@ nav {
         align-items: center;
         .nav-link {
             text-decoration: none;
-            color: $color-fuente;
+            color: map-get($colores, color-fuente);
     }
 }
 }

@@ -1,12 +1,18 @@
 @import 'variables';
 
+@import 'utilities/maps';
+@import 'utilities/extend';
+
 @import 'layout/generales';
 @import 'layout/navbar';
 @import 'layout/footer';
 
 @import 'pages/index';
+@import 'utilities/mixin';
 @import 'pages/contacto';
 @import 'pages/formulario';
+
+@import 'utilities/condicional'
 
 
 

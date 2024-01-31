@@ -5,7 +5,7 @@
 
 a {
     text-decoration: none;
-    color: #f4c2c2;
+    color: map-get($colores, color-titulos)
 }
 h1 {
     font-family: "Pacifico";
@@ -13,7 +13,8 @@ h1 {
     font-style: normal;
     font-size: 50px;
     text-align: center;
-    color: #f4c2c2;
+    color: map-get($colores, color-titulos)
+    
 }
 
 h5 {
@@ -21,6 +22,3 @@ h5 {
     font-size: 30px;
 }
 
-section {
-    color: $color-fuente;
-}

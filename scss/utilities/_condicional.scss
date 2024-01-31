@@ -1,0 +1,22 @@
+$condicion: nada;
+
+@if $condicion == oscuro {
+    body {
+        background-color: gray;
+        color: burlywood;
+    }
+}
+
+@else if $condicion == nada {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+
+@else {
+    body {
+        background-color: antiquewhite;
+        color: black;
+    }
+}

@@ -1,3 +1,9 @@
+footer .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +11,7 @@
 
 a {
   text-decoration: none;
-  color: #f4c2c2;
+  color: rgb(244, 194, 194);
 }
 
 h1 {
@@ -14,16 +20,12 @@ h1 {
   font-style: normal;
   font-size: 50px;
   text-align: center;
-  color: #f4c2c2;
+  color: rgb(244, 194, 194);
 }
 
 h5 {
   font-family: "Pacifico";
   font-size: 30px;
-}
-
-section {
-  color: rgb(245, 222, 179);
 }
 
 nav {
@@ -46,12 +48,6 @@ footer {
   background-color: rgb(100, 149, 237);
   color: rgb(245, 222, 179);
 }
-footer .container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
 .card {
   width: 100%;
   border: none;
@@ -64,7 +60,7 @@ footer .container {
 }
 
 .card-title {
-  color: #f4c2c2;
+  color: rgb(244, 194, 194);
   text-align: start;
 }
 
@@ -74,12 +70,28 @@ div button {
   padding: 5px 10px;
   border: none;
   border-radius: 10px;
-  box-shadow: 0 0 10px #f4c2c2;
+  box-shadow: 0 0 10px #919191;
   font-weight: 500;
 }
 
 form {
   font-family: Arial;
+}
+
+div .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+div .logo img {
+  height: 150px;
+  width: auto;
+}
+
+body {
+  background-color: white;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

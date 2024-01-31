@@ -5,10 +5,10 @@
 
 }
 .card-body {
-    background-color: $fondo-primario;
-    color: $color-fuente;
+    background-color: map-get($colores, fondo-primario);
+    color: map-get($colores, color-fuente);
 }
 .card-title {
-    color:#f4c2c2;
+    color: map-get($colores, color-titulos);
     text-align: start;
 }

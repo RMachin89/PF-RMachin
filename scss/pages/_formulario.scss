@@ -1,4 +1,10 @@
 form {
     font-family: $fuente-comun;
-
 }
+div .logo {
+    @include centrar(flex,row,center,center);
+    img {
+        @include logo-grande (150px, auto);
+    }
+}
+

@@ -1,0 +1,11 @@
+@mixin centrar ($display, $direction, $just, $align){
+    display: $display;
+    flex-direction: $direction;
+    justify-content: $just;
+    align-items: $align;
+};
+
+@mixin logo-grande ($height, $width) {
+    height: $height;
+    width: $width;
+}
