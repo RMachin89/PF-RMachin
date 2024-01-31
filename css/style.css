@@ -22,6 +22,10 @@ h5 {
   font-size: 30px;
 }
 
+section {
+  color: rgb(245, 222, 179);
+}
+
 nav {
   background-color: rgb(100, 149, 237);
   font-family: "Pacifico";
@@ -36,6 +40,16 @@ nav li {
 nav li .nav-link {
   text-decoration: none;
   color: rgb(245, 222, 179);
+}
+
+footer {
+  background-color: rgb(100, 149, 237);
+  color: rgb(245, 222, 179);
+}
+footer .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .card {
@@ -64,13 +78,8 @@ div button {
   font-weight: 500;
 }
 
-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: end;
-  background-color: rgb(100, 149, 237);
-  color: rgb(245, 222, 179);
+form {
+  font-family: Arial;
 }
 
 /*# sourceMappingURL=style.css.map */

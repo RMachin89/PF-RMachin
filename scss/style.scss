@@ -1,9 +1,12 @@
 @import 'variables';
-@import 'generales';
-@import 'navbar';
-@import 'index';
-@import 'contacto';
-@import 'footer'
+
+@import 'layout/generales';
+@import 'layout/navbar';
+@import 'layout/footer';
+
+@import 'pages/index';
+@import 'pages/contacto';
+@import 'pages/formulario';
 
 
 

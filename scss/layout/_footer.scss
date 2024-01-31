@@ -1,0 +1,10 @@
+footer {
+    background-color: $fondo-primario;
+    color: $color-fuente; 
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+    }    
+
