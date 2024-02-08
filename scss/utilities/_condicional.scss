@@ -10,13 +10,11 @@ $condicion: nada;
 @else if $condicion == nada {
     body {
         background-color: white;
-        color: black;
     }
 }
 
 @else {
     body {
         background-color: antiquewhite;
-        color: black;
     }
 }

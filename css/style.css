@@ -26,6 +26,7 @@ h1 {
 h5 {
   font-family: "Pacifico";
   font-size: 30px;
+  color: rgb(244, 194, 194);
 }
 
 nav {
@@ -34,6 +35,7 @@ nav {
   font-weight: 400;
   padding: 1px;
   font-size: large;
+  position: fixed;
 }
 nav li {
   display: flex;
@@ -48,6 +50,10 @@ footer {
   background-color: rgb(100, 149, 237);
   color: rgb(245, 222, 179);
 }
+.img-fodo {
+  background-image: url(/img/macarrons.jpg);
+}
+
 .card {
   width: 100%;
   border: none;
@@ -96,7 +102,6 @@ div .logo img {
 
 body {
   background-color: white;
-  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

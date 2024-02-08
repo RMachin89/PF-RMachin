@@ -20,5 +20,6 @@ h1 {
 h5 {
     font-family: "Pacifico";
     font-size: 30px;
+    color: map-get($colores, color-titulos)
 }
 
