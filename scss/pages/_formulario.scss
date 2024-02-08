@@ -1,5 +1,11 @@
 form {
     font-family: $fuente-comun;
+    div {
+        
+    }
+    #termsycon {
+        margin-top: 20px;
+    }
 }
 div .logo {
     @include centrar(flex,row,center,center);

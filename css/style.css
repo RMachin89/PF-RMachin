@@ -105,6 +105,9 @@ footer {
 form {
   font-family: Arial;
 }
+form #termsycon {
+  margin-top: 20px;
+}
 
 div .logo {
   display: flex;
