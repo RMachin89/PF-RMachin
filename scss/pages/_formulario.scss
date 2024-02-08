@@ -6,5 +6,7 @@ div .logo {
     img {
         @include logo-grande (150px, auto);
     }
+    button {
+        justify-content: flex-end;
+    }
 }
-
