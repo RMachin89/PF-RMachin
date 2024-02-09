@@ -12,11 +12,10 @@ nav {
         .nav-link {
             text-decoration: none;
             color: map-get($colores, color-fuente);
-            transition: background 0.5s linear;
-
+            transition: background 0.5s ease-out;
+            }
         }
     }
-}
 
 .nav-link:hover {
     color: rgb(5, 84, 231);

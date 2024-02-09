@@ -1,7 +1,7 @@
 footer .container {
   margin-top: 100px;
   height: 200px;
-  padding-top: 30px;
+  padding-top: 50px;
   display: flex;
   justify-content: space-evenly;
   align-items: center top;
@@ -49,7 +49,7 @@ div button {
   border-radius: 10px;
   box-shadow: 0 0 10px #919191;
   font-weight: 500;
-  transition: background 0.5s linear;
+  transition: background 0.5s ease-in;
 }
 
 button:hover {
@@ -71,7 +71,7 @@ nav ul li {
 nav ul li .nav-link {
   text-decoration: none;
   color: rgb(245, 222, 179);
-  transition: background 0.5s linear;
+  transition: background 0.5s ease-out;
 }
 
 .nav-link:hover {
@@ -105,8 +105,12 @@ footer {
 form {
   font-family: Arial;
 }
-form #termsycon {
-  margin-top: 20px;
+form div {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+form div #termsycon {
+  margin-top: 30px;
 }
 
 div .logo {
