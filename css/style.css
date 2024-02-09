@@ -82,8 +82,14 @@ footer {
   background-color: rgb(100, 149, 237);
   color: rgb(245, 222, 179);
 }
-.img-fodo {
+main .img-fondo {
   background-image: url(/img/macarrons.jpg);
+  background-position: 60% 50%;
+  margin-top: -25px;
+  padding-top: 15px;
+}
+main .img-fondo p {
+  color: rgb(249, 250, 252);
 }
 
 .card {
