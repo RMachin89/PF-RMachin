@@ -56,6 +56,14 @@ button:hover {
   background-color: rgb(5, 84, 231);
 }
 
+section div img .card-img-top {
+  transition: 0.5s ease-in;
+}
+
+.card-img-top:hover {
+  opacity: 0.8;
+}
+
 nav {
   background-color: rgb(100, 149, 237);
   font-family: "Pacifico";
