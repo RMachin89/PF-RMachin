@@ -1,17 +1,145 @@
-/* Error: expected ";".
- *    ,
- * 14 | @import 'pages/quienessomos'
- *    |                             ^
- *    '
- *   scss\style.scss 14:29  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: expected \";\".\a    \2577 \a 14 \2502  @import 'pages/quienessomos'\d\a    \2502                              ^\a    \2575 \a   scss\\style.scss 14:29  root stylesheet";
+footer .container {
+  margin-top: 100px;
+  height: 200px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center top;
 }
+footer .container img {
+  max-width: 80px;
+  max-height: 80px;
+  justify-self: flex-start;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(244, 194, 194);
+}
+
+h1 {
+  font-family: "Pacifico";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: rgb(244, 194, 194);
+}
+
+h5 {
+  font-family: "Pacifico";
+  font-size: 30px;
+  color: rgb(244, 194, 194);
+}
+
+div button {
+  color: rgb(245, 222, 179);
+  background-color: rgb(100, 149, 237);
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #919191;
+  font-weight: 500;
+  transition: background 0.5s ease-in;
+}
+
+button:hover {
+  background-color: rgb(5, 84, 231);
+}
+
+section div img .card-img-top {
+  transition: 0.5s ease-in;
+}
+
+.card-img-top:hover {
+  opacity: 0.8;
+}
+
+nav {
+  background-color: rgb(100, 149, 237);
+  font-family: "Pacifico";
+  font-weight: 400;
+  padding: 1px;
+  font-size: large;
+}
+nav ul li {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav ul li .nav-link {
+  text-decoration: none;
+  color: rgb(245, 222, 179);
+  transition: background 0.5s ease-out;
+}
+
+.nav-link:hover {
+  color: rgb(5, 84, 231);
+}
+
+footer {
+  background-color: rgb(100, 149, 237);
+  color: rgb(245, 222, 179);
+}
+main .img-fondo {
+  background-image: url(/img/macarrons.jpg);
+  background-position: 60% 50%;
+  margin-top: -25px;
+  padding-top: 15px;
+}
+main .img-fondo p {
+  color: rgb(249, 250, 252);
+}
+
+.card {
+  width: 100%;
+  border: none;
+  margin: 20px 0 40px 0px;
+}
+
+.card-body {
+  background-color: rgb(100, 149, 237);
+  color: rgb(245, 222, 179);
+}
+
+.card-title {
+  color: rgb(244, 194, 194);
+  text-align: start;
+}
+
+form {
+  font-family: Arial;
+}
+form div {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+form div #termsycon {
+  margin-top: 30px;
+}
+
+div .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+div .logo button {
+  justify-content: flex-end;
+}
+
+body {
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

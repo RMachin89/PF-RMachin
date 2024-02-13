@@ -10,9 +10,6 @@ form {
 }
 div .logo {
     @include centrar(flex,row,center,center);
-    img {
-        @include logo-grande (150px, auto);
-    }
     button {
         justify-content: flex-end;
     }

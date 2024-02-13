@@ -28,6 +28,7 @@ h5 {
 div button {
     color: $color-fuente;
     background-color: $fondo-primario;
+    justify-content: flex-end;
     margin-top: 20px;
     margin-bottom: 50px;
     padding: 5px 10px;
