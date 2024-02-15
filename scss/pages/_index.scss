@@ -5,6 +5,9 @@ main .img-fondo {
     padding-top: 15px;
     p {
     color: map-get($colores, color-fuente-alt);
+    font-size: x-large;
+    font-weight: 200;
+    font-family: 'Pacifico';
     }
     
 }
@@ -13,7 +16,11 @@ main .img-fondo {
     width: 100%;
     border: none;
     margin: 20px 0 40px 0px;
-
+    background-color: map-get($colores, fondo-primario );
+    img {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 }
 .card-body {
     background-color: map-get($colores, fondo-primario);

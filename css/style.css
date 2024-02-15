@@ -72,13 +72,9 @@ nav {
   padding: 1px;
   font-size: large;
 }
-nav ul li {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-nav ul li .nav-link {
+nav .nav-link {
   text-decoration: none;
+  justify-self: end;
   color: rgb(245, 222, 179);
   transition: background 0.5s ease-out;
 }
@@ -98,13 +94,21 @@ main .img-fondo {
   padding-top: 15px;
 }
 main .img-fondo p {
-  color: rgb(249, 250, 252);
+  color: rgb(255, 244, 223);
+  font-size: x-large;
+  font-weight: 200;
+  font-family: "Pacifico";
 }
 
 .card {
   width: 100%;
   border: none;
   margin: 20px 0 40px 0px;
+  background-color: rgb(100, 149, 237);
+}
+.card img {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .card-body {
@@ -136,6 +140,15 @@ div .logo {
 }
 div .logo button {
   justify-content: flex-end;
+}
+
+.qs {
+  background-color: rgb(100, 149, 237);
+}
+.qs img {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
 }
 
 body {
